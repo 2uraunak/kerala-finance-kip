@@ -108,6 +108,8 @@ services:
         condition: service_healthy
     volumes:
       - audit_db:/app/audit
+      - ./scripts:/app/scripts:ro
+      - ./tests:/app/tests:ro
     restart: unless-stopped
 
   ingestion-service:
@@ -130,6 +132,7 @@ services:
         condition: service_healthy
     volumes:
       - ./data/sample_documents:/app/sample_documents:ro
+      - ./scripts:/app/scripts:ro
     restart: unless-stopped
 
   celery-worker:
@@ -151,6 +154,7 @@ services:
         condition: service_healthy
     volumes:
       - ./data/sample_documents:/app/sample_documents:ro
+      - ./scripts:/app/scripts:ro
     restart: unless-stopped
 
   search-service:

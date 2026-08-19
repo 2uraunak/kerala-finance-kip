@@ -11,9 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Copy scripts and tests into container
-COPY scripts/ /app/scripts/
-COPY tests/ /app/tests/
+# Scripts and tests are mounted via docker-compose volumes
 
 EXPOSE 8000
 
