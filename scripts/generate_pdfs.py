@@ -63,9 +63,9 @@ startxref
         f.write(content.encode('utf-8'))
 
 os.makedirs('data/sample_documents', exist_ok=True)
-create_minimal_pdf('data/sample_documents/GO_Ms_No_45_2023.pdf', 'Government Order 45/2023: Dearness Allowance Revision')
-create_minimal_pdf('data/sample_documents/GO_Ms_No_45_2023_SUPERSEDED.pdf', 'Government Order 45/2023 (SUPERSEDED): Dearness Allowance')
-create_minimal_pdf('data/sample_documents/GST_Circular_2024.pdf', 'GST Circular 2024: Compliance Measures')
-create_minimal_pdf('data/sample_documents/Budget_2024_25.pdf', 'Kerala State Budget 2024-25')
+create_minimal_pdf('data/sample_documents/GO_Ms_No_45_2023.pdf', 'Govt Order 45/2023: Dearness Allowance Revision to 15%')
+create_minimal_pdf('data/sample_documents/GO_Ms_No_45_2023_SUPERSEDED.pdf', 'Govt Order 112/2023 (SUPERSEDES 45/2023): DA remains at 12%')
+create_minimal_pdf('data/sample_documents/GST_Circular_2024.pdf', 'GST Circular: Works Contract tax is 18%, Govt contracts 12%')
+create_minimal_pdf('data/sample_documents/Budget_2024_25.pdf', 'Kerala State Budget 2024-25: IT sector gets Rs 12000 Crores')
 
 print("Minimal PDFs created successfully.")

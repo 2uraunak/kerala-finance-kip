@@ -1,0 +1,22 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Kerala Finance Department: Implementation of GST on Works Contract",
+    "doc_number": "GO(P) No. 12/2017/Fin",
+    "issue_date": "2017-07-01",
+    "doc_type": "gst_policy",
+    "status": "active",
+    "department": "Finance",
+    "raw_text": "This order outlines the implementation of GST on works contract. The standard rate is set at 18%."
+  },
+  {
+    "id": "doc-002",
+    "title": "Revision of DA Rates for State Employees",
+    "doc_number": "GO(P) No. 45/2023/Fin",
+    "issue_date": "2023-04-15",
+    "doc_type": "policy",
+    "status": "active",
+    "department": "Finance",
+    "raw_text": "The Dearness Allowance for state employees is hereby revised from 12% to 15% effective from April 2023."
+  }
+]
